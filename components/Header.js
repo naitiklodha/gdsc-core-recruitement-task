@@ -19,7 +19,7 @@ const ThreeDText = () => {
         <OrbitControls />
         {/* Text on the left side */}
         <Text3D position={[-4, 0, 0]} font="font/Roboto_Regular.json">
-          Naitik Lodha
+          {"Naitik  Lodha"}
           <meshNormalMaterial />
         </Text3D>
         <Text color="white" position={[0, -1.25, 0]} scale={[0.3, 0.3, 0.3]}>
