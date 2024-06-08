@@ -4,7 +4,7 @@ import Stars from "../components/Stars";
 import { Text3D, OrbitControls, useGLTF, Text } from "@react-three/drei";
 
 function Model() {
-  const gltf = useGLTF("https://thinkuldeep.com/modelviewer/Astronaut.glb");
+  const gltf = useGLTF("Astronaut.glb");
   return <primitive object={gltf.scene} />;
 }
 
